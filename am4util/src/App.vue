@@ -4,7 +4,7 @@ import SeatOptimizer from "@/components/SeatOptimizer.vue";
 </script>
 
 <template>
-  <div class="min-h-screen bg-gradient-to-t from-stone-950 to-stone-900 py-3 px-3">
+  <div class="min-h-screen bg-stone-900 py-3 px-3">
     <div class="max-w-7xl mx-auto">
       <div class="grid md:grid-cols-2 gap-3">
         <TicketCalculator />

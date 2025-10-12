@@ -13,4 +13,11 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  build: {
+    sourcemap: false, // Désactiver les source maps en production
+    minify: 'terser', // Minification optimale
+    chunkSizeWarningLimit: 1000,
+  },
+  // Pour un sous-domaine
+  base: '/',
 })

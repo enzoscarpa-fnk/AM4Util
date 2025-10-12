@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  am4-utility:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: am4-utility:latest
+    container_name: am4-utility
+    restart: unless-stopped
+    ports:
+      - "4040:80"
+    networks:
+      - am4-network
+
+networks:
+  am4-network:
+    driver: bridge
