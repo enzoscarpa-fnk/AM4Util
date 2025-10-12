@@ -32,83 +32,89 @@ const clearForm = () => {
 </script>
 
 <template>
-  <div class="bg-white rounded-lg shadow-md p-6">
-    <div class="flex justify-between items-center mb-6">
-      <h2 class="text-2xl font-bold text-gray-800">Optimiseur de Sièges</h2>
+  <div class="bg-stone-800 rounded-xl shadow-md p-3">
+    <div class="flex justify-between items-center">
+      <h2 class="text-xl font-bold text-emerald-500 mb-2">Seats optimizer</h2>
+
+      <!-- Bouton Clear -->
       <button
         @click="clearForm"
-        class="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition-colors text-sm font-medium"
+        class="w-7 h-7 flex items-center justify-center bg-rose-500 text-white rounded-full hover:bg-rose-600 transition-colors text-lg font-bold mb-2"
+        title="Clear"
       >
-        Clear
+        ×
       </button>
     </div>
 
     <div class="space-y-4">
       <!-- Demande passagers Y -->
       <div>
-        <label class="block text-sm font-medium text-gray-700 mb-1">
-          Demande - Classe Y (Economy)
+        <label class="block text-sm font-medium text-emerald-500 mb-1">
+          Demand - Y Class (Economy)
         </label>
         <input
           type="number"
           v-model.number="demandY"
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
+          class="w-full px-3 py-1 border border-emerald-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-neutral-300"
           placeholder="0"
         />
       </div>
 
       <!-- Demande passagers J -->
       <div>
-        <label class="block text-sm font-medium text-gray-700 mb-1">
-          Demande - Classe J (Business)
+        <label class="block text-sm font-medium text-emerald-500 mb-1">
+          Demand - J Class (Business)
         </label>
         <input
           type="number"
           v-model.number="demandJ"
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
+          class="w-full px-3 py-1 border border-emerald-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-neutral-300"
           placeholder="0"
         />
       </div>
 
       <!-- Demande passagers F -->
       <div>
-        <label class="block text-sm font-medium text-gray-700 mb-1">
-          Demande - Classe F (First)
+        <label class="block text-sm font-medium text-emerald-500 mb-1">
+          Demand - F Class (First)
         </label>
         <input
           type="number"
           v-model.number="demandF"
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
+          class="w-full px-3 py-1 border border-emerald-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-neutral-300"
           placeholder="0"
         />
       </div>
 
       <!-- Places dans l'avion -->
       <div>
-        <label class="block text-sm font-medium text-gray-700 mb-1">
-          Nombre total de places dans l'avion
+        <label class="block text-sm font-medium text-emerald-500 mb-1">
+          Total number of seats in the plane
         </label>
         <input
           type="number"
           v-model.number="planeSeats"
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
+          class="w-full px-3 py-1 border border-emerald-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-neutral-300"
           placeholder="0"
         />
       </div>
 
-      <!-- Résultats -->
-      <div class="mt-6 p-4 bg-gray-50 rounded-md">
-        <h3 class="font-semibold text-gray-700 mb-3">Répartition des sièges:</h3>
-        <div class="space-y-2">
-          <p class="text-sm text-gray-600">
-            Sièges Y: <span class="font-semibold text-green-600">{{ ySeats.toFixed(0) }}</span>
-          </p>
-          <p class="text-sm text-gray-600">
-            Sièges J: <span class="font-semibold text-green-600">{{ jSeats.toFixed(0) }}</span>
-          </p>
-          <p class="text-sm text-gray-600">
-            Sièges F: <span class="font-semibold text-green-600">{{ fSeats.toFixed(0) }}</span>
-          </p>
+      <!-- Résultats en ligne -->
+      <div class="px-2 bg-neutral-700 rounded-md">
+        <h3 class="font-semibold text-emerald-500 mb-2 pt-1 text-center">Breakdown</h3>
+        <div class="grid grid-cols-3 gap-4">
+          <div class="text-center">
+            <p class="text-xs text-gray-400 mb-1">Y Seats</p>
+            <p class="text-lg font-semibold text-emerald-600">{{ ySeats.toFixed(0) }}</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xs text-gray-400 mb-1">J Seats</p>
+            <p class="text-lg font-semibold text-emerald-600">{{ jSeats.toFixed(0) }}</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xs text-gray-400 mb-1">F Seats</p>
+            <p class="text-lg font-semibold text-emerald-600">{{ fSeats.toFixed(0) }}</p>
+          </div>
         </div>
       </div>
     </div>
