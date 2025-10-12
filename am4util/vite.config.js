@@ -14,8 +14,8 @@ export default defineConfig({
     },
   },
   build: {
-    sourcemap: false, // Désactiver les source maps en production
-    minify: 'terser', // Minification optimale
+    sourcemap: false,
+    minify: 'esbuild',
     chunkSizeWarningLimit: 1000,
   },
   // Pour un sous-domaine
