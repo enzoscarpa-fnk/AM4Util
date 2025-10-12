@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281f8143-fb0a-4184-b275-a5e8b1f009d6" name="Changes" comment="Fixed Dockerfile">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="281f8143-fb0a-4184-b275-a5e8b1f009d6" name="Changes" comment="Fixed vite.config.js">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760284649069</updated>
-      <workItem from="1760284650188" duration="8662000" />
+      <workItem from="1760284650188" duration="10680000" />
     </task>
     <task id="LOCAL-00001" summary="PoC">
       <option name="closed" value="true" />
@@ -105,7 +107,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760299840175</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed Dockerfile">
+      <option name="closed" value="true" />
+      <created>1760300538289</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760300538289</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed vite.config.js">
+      <option name="closed" value="true" />
+      <created>1760300700801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760300700801</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +134,7 @@
     <MESSAGE value="Fixed rules, adapted UI" />
     <MESSAGE value="Prepared for deploy" />
     <MESSAGE value="Fixed Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Dockerfile" />
+    <MESSAGE value="Fixed vite.config.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed vite.config.js" />
   </component>
 </project>

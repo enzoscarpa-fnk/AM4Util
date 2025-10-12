@@ -36,10 +36,10 @@ const clearForm = () => {
       </button>
     </div>
 
-    <div class="space-y-4">
+    <div class="space-y-3">
       <!-- Billet Y -->
       <div>
-        <label class="block text-sm font-medium text-emerald-500 mb-1">
+        <label class="block text-sm font-medium text-emerald-500">
           Base Price - Y Class (Economy)
         </label>
         <input
@@ -52,7 +52,7 @@ const clearForm = () => {
 
       <!-- Billet J -->
       <div>
-        <label class="block text-sm font-medium text-emerald-500 mb-1">
+        <label class="block text-sm font-medium text-emerald-500">
           Base Price - J Class (Business)
         </label>
         <input
@@ -65,7 +65,7 @@ const clearForm = () => {
 
       <!-- Billet F -->
       <div>
-        <label class="block text-sm font-medium text-emerald-500 mb-1">
+        <label class="block text-sm font-medium text-emerald-500">
           Base Price - F Class (First)
         </label>
         <input
@@ -81,16 +81,16 @@ const clearForm = () => {
         <h3 class="font-semibold text-emerald-500 mb-2 pt-1 text-center">Calculated prices</h3>
         <div class="grid grid-cols-3 gap-4">
           <div class="text-center">
-            <p class="text-xs text-gray-400 mb-1">Y Class</p>
-            <p class="text-lg font-semibold text-emerald-600">{{ calculatedYPrice.toFixed(2) }} €</p>
+            <p class="text-xs text-gray-400">Y Class</p>
+            <p class="text-lg font-semibold text-emerald-600">{{ calculatedYPrice.toFixed(0) }}</p>
           </div>
           <div class="text-center">
-            <p class="text-xs text-gray-400 mb-1">J Class</p>
-            <p class="text-lg font-semibold text-emerald-600">{{ calculatedJPrice.toFixed(2) }} €</p>
+            <p class="text-xs text-gray-400">J Class</p>
+            <p class="text-lg font-semibold text-emerald-600">{{ calculatedJPrice.toFixed(0) }}</p>
           </div>
           <div class="text-center">
-            <p class="text-xs text-gray-400 mb-1">F Class</p>
-            <p class="text-lg font-semibold text-emerald-600">{{ calculatedFPrice.toFixed(2) }} €</p>
+            <p class="text-xs text-gray-400">F Class</p>
+            <p class="text-lg font-semibold text-emerald-600">{{ calculatedFPrice.toFixed(0) }}</p>
           </div>
         </div>
       </div>

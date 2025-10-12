@@ -46,10 +46,10 @@ const clearForm = () => {
       </button>
     </div>
 
-    <div class="space-y-4">
+    <div class="space-y-3">
       <!-- Demande passagers Y -->
       <div>
-        <label class="block text-sm font-medium text-emerald-500 mb-1">
+        <label class="block text-sm font-medium text-emerald-500">
           Demand - Y Class (Economy)
         </label>
         <input
@@ -62,7 +62,7 @@ const clearForm = () => {
 
       <!-- Demande passagers J -->
       <div>
-        <label class="block text-sm font-medium text-emerald-500 mb-1">
+        <label class="block text-sm font-medium text-emerald-500">
           Demand - J Class (Business)
         </label>
         <input
@@ -75,7 +75,7 @@ const clearForm = () => {
 
       <!-- Demande passagers F -->
       <div>
-        <label class="block text-sm font-medium text-emerald-500 mb-1">
+        <label class="block text-sm font-medium text-emerald-500">
           Demand - F Class (First)
         </label>
         <input
@@ -88,7 +88,7 @@ const clearForm = () => {
 
       <!-- Places dans l'avion -->
       <div>
-        <label class="block text-sm font-medium text-emerald-500 mb-1">
+        <label class="block text-sm font-medium text-emerald-500">
           Total number of seats in the plane
         </label>
         <input
@@ -104,15 +104,15 @@ const clearForm = () => {
         <h3 class="font-semibold text-emerald-500 mb-2 pt-1 text-center">Breakdown</h3>
         <div class="grid grid-cols-3 gap-4">
           <div class="text-center">
-            <p class="text-xs text-gray-400 mb-1">Y Seats</p>
+            <p class="text-xs text-gray-400">Y Seats</p>
             <p class="text-lg font-semibold text-emerald-600">{{ ySeats.toFixed(0) }}</p>
           </div>
           <div class="text-center">
-            <p class="text-xs text-gray-400 mb-1">J Seats</p>
+            <p class="text-xs text-gray-400">J Seats</p>
             <p class="text-lg font-semibold text-emerald-600">{{ jSeats.toFixed(0) }}</p>
           </div>
           <div class="text-center">
-            <p class="text-xs text-gray-400 mb-1">F Seats</p>
+            <p class="text-xs text-gray-400">F Seats</p>
             <p class="text-lg font-semibold text-emerald-600">{{ fSeats.toFixed(0) }}</p>
           </div>
         </div>
