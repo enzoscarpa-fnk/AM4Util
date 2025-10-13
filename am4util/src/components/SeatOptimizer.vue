@@ -83,6 +83,7 @@ const filterInteger = (field) => {
           type="text"
           v-model="fields[key].value"
           @input="filterInteger(fields[key])"
+          maxlength="5"
           class="w-full px-3 py-1 border border-emerald-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-neutral-300"
           placeholder="0"
         />
@@ -90,19 +91,18 @@ const filterInteger = (field) => {
 
       <!-- Breakdown -->
       <div class="px-2 bg-neutral-700 rounded-md">
-        <h3 class="font-semibold text-emerald-500 mb-2 pt-1 text-center">Breakdown</h3>
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid grid-cols-3 gap-4 py-2">
           <div class="text-center">
-            <p class="text-xs text-gray-400">Y Seats</p>
-            <p class="text-lg font-semibold text-emerald-600">{{ ySeats }}</p>
+            <p class="text-xs text-gray-400 pb-1">Y Seats</p>
+            <p class="w-24 mx-auto text-lg font-semibold text-emerald-600 bg-neutral-600 rounded-md">{{ ySeats }}</p>
           </div>
           <div class="text-center">
-            <p class="text-xs text-gray-400">J Seats</p>
-            <p class="text-lg font-semibold text-emerald-600">{{ jSeats }}</p>
+            <p class="text-xs text-gray-400 pb-1">J Seats</p>
+            <p class="w-24 mx-auto text-lg font-semibold text-emerald-600 bg-neutral-600 rounded-md">{{ jSeats }}</p>
           </div>
           <div class="text-center">
-            <p class="text-xs text-gray-400">F Seats</p>
-            <p class="text-lg font-semibold text-emerald-600">{{ fSeats }}</p>
+            <p class="text-xs text-gray-400 pb-1">F Seats</p>
+            <p class="w-24 mx-auto text-lg font-semibold text-emerald-600 bg-neutral-600 rounded-md">{{ fSeats }}</p>
           </div>
         </div>
       </div>
