@@ -8,7 +8,7 @@
 
 A lightweight web application for managing airline ticket pricing calculations and seat allocation optimization.
 
-[Live Demo](https://am4.studiofnk.be) • [Report Bug](https://github.com/enzoscarpa-fnk/AM4Util/issues) • [Request Feature](https://github.com/enzoscarpa-fnk/AM4Util/issues)
+<a href="https://am4.studiofnk.be" target="_blank" rel="noopener noreferrer">Live Demo</a> • <a href="https://github.com/enzoscarpa-fnk/AM4Util/issues" target="_blank">Report Bug</a> • <a href="https://github.com/enzoscarpa-fnk/AM4Util/issues" target="_blank">Request Feature</a>
 
 </div>
 
@@ -60,7 +60,7 @@ Optimize seat distribution based on passenger demand and total aircraft capacity
 
 The application is deployed and accessible at:
 
-**🔗 [https://am4.studiofnk.be](https://am4.studiofnk.be)**
+**🔗 <a href="https://am4.studiofnk.be" target="_blank" rel="noopener noreferrer">https://am4.studiofnk.be</a>**
 
 ### Screenshots
 
