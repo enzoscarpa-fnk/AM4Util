@@ -13,10 +13,6 @@ const fields = {
   planeSeats
 }
 
-const validateIntegerInput = (event, field) => {
-  field.value = event.target.value.replace(/\D/g, '')
-}
-
 const toNumber = (val) => Number(val) || 0
 
 const totalSeats = computed(() => {
@@ -53,6 +49,10 @@ const clearForm = () => {
   demandF.value = ''
   planeSeats.value = ''
 }
+
+const filterInteger = (field) => {
+  field.value = field.value.replace(/\D/g, '')
+}
 </script>
 
 <template>
@@ -81,8 +81,8 @@ const clearForm = () => {
         <label class="block text-sm font-medium text-emerald-500">{{ label }}</label>
         <input
           type="text"
-          :value="fields[key].value"
-          @input="validateIntegerInput($event, fields[key])"
+          v-model="fields[key].value"
+          @input="filterInteger(fields[key])"
           class="w-full px-3 py-1 border border-emerald-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-neutral-300"
           placeholder="0"
         />
