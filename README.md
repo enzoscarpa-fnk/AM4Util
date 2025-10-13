@@ -64,7 +64,9 @@ The application is deployed and accessible at:
 
 ### Screenshots
 
-Add screenshots here
+<img width="369" height="800" alt="IMG_7535" src="https://github.com/user-attachments/assets/950e64c3-ddd1-4bb8-8af6-73517204ec9d" />
+<img width="369" height="800" alt="IMG_7536" src="https://github.com/user-attachments/assets/7a436f7c-42b1-460c-a8a0-0aa9736920bc" />
+
 
 ## 💻 Usage
 
