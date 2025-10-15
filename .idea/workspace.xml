@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281f8143-fb0a-4184-b275-a5e8b1f009d6" name="Changes" comment="Fixed Markdown">
+    <list default="true" id="281f8143-fb0a-4184-b275-a5e8b1f009d6" name="Changes" comment="Added favicon &amp; app title, fixed UI.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1760284649069</updated>
       <workItem from="1760284650188" duration="12719000" />
-      <workItem from="1760375309987" duration="8821000" />
+      <workItem from="1760375309987" duration="14506000" />
     </task>
     <task id="LOCAL-00001" summary="PoC">
       <option name="closed" value="true" />
@@ -166,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760389699070</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added favicon &amp; app title, fixed UI.">
+      <option name="closed" value="true" />
+      <created>1760396715749</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760396715749</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +188,7 @@
     <MESSAGE value="Enhanced ticket price calculation method, fixed field UX, added unit to calculated prices, optimized code." />
     <MESSAGE value="Fixed field validation logic" />
     <MESSAGE value="Fixed Markdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Markdown" />
+    <MESSAGE value="Added favicon &amp; app title, fixed UI." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added favicon &amp; app title, fixed UI." />
   </component>
 </project>
