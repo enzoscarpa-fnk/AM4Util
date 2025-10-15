@@ -1,0 +1,54 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches: ['main']
+
+jobs:
+  deploy:
+    name: Deploy Docker Container
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install SSH key
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/id_rsa
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} > ~/.ssh/known_hosts
+
+      - name: Deploy application
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
+            set -e
+            
+            # Aller à la racine du VPS
+            cd ${{ secrets.WORK_DIR }}
+            
+            # Stopper proprement avec docker compose si le dossier existe
+            if [ -d "am4util" ]; then
+              cd am4util
+              docker compose down 2>/dev/null || true
+              cd ..
+            fi
+            
+            # Nettoyer le dossier source
+            rm -rf am4util
+            
+            # Cloner la nouvelle version depuis GitHub
+            git clone https://github.com/enzoscarpa-fnk/AM4Util am4util
+            cd am4util
+            
+            # Réorganiser les fichiers si nécessaire
+            if [ -d "am4util" ]; then
+              mv am4util/* . 2>/dev/null || true
+              mv am4util/.[!.]* . 2>/dev/null || true
+              rmdir am4util
+            fi
+            
+            # Build et lancer le nouveau container Docker
+            docker compose up -d --build
+          EOF
+
+      - name: Cleanup SSH keys
+        if: always()
+        run: rm -rf ~/.ssh
