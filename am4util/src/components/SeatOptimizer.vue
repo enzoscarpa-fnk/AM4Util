@@ -94,15 +94,15 @@ const filterInteger = (field) => {
         <div class="grid grid-cols-3 gap-4 py-2">
           <div class="text-center">
             <p class="text-xs text-gray-400 pb-1">Y Seats</p>
-            <p class="w-24 mx-auto text-lg font-semibold text-emerald-600 bg-neutral-600 rounded-md">{{ ySeats }}</p>
+            <p class="w-24 mx-auto text-lg font-semibold text-emerald-500 bg-neutral-600 rounded-md">{{ ySeats }}</p>
           </div>
           <div class="text-center">
             <p class="text-xs text-gray-400 pb-1">J Seats</p>
-            <p class="w-24 mx-auto text-lg font-semibold text-emerald-600 bg-neutral-600 rounded-md">{{ jSeats }}</p>
+            <p class="w-24 mx-auto text-lg font-semibold text-emerald-500 bg-neutral-600 rounded-md">{{ jSeats }}</p>
           </div>
           <div class="text-center">
             <p class="text-xs text-gray-400 pb-1">F Seats</p>
-            <p class="w-24 mx-auto text-lg font-semibold text-emerald-600 bg-neutral-600 rounded-md">{{ fSeats }}</p>
+            <p class="w-24 mx-auto text-lg font-semibold text-emerald-500 bg-neutral-600 rounded-md">{{ fSeats }}</p>
           </div>
         </div>
       </div>
