@@ -61,7 +61,7 @@ const filterInteger = (field) => {
         baseJPrice: 'Base Price - J Class (Business)',
         baseFPrice: 'Base Price - F Class (First)'
       }" :key="key">
-        <label class="block text-sm font-medium text-emerald-500">{{ label }}</label>
+        <label class="block pb-1 text-sm font-medium text-emerald-500">{{ label }}</label>
         <input
           type="text"
           v-model="fields[key].value"

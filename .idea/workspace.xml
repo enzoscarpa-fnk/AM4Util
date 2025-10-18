@@ -4,33 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281f8143-fb0a-4184-b275-a5e8b1f009d6" name="Changes" comment="Added &quot;report bug/enhance&quot; link">
-      <change afterPath="$PROJECT_DIR$/app/src/data/aircrafts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/app/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.prettierrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.vscode/extensions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/assets/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/assets/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/SeatOptimizer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/TicketCalculator.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconCommunity.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconCommunity.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconDocumentation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconDocumentation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconEcosystem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconEcosystem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconSupport.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconSupport.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconTooling.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconTooling.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/vite.config.js" afterDir="false" />
+    <list default="true" id="281f8143-fb0a-4184-b275-a5e8b1f009d6" name="Changes" comment="Added aircrafts json list, fuzzy search engine and dropdown list for aircrafts">
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/SeatOptimizer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/SeatOptimizer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/TicketCalculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/TicketCalculator.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +78,7 @@
       <workItem from="1760284650188" duration="12719000" />
       <workItem from="1760375309987" duration="14809000" />
       <workItem from="1760774379049" duration="721000" />
-      <workItem from="1760796415786" duration="3374000" />
+      <workItem from="1760796415786" duration="9758000" />
     </task>
     <task id="LOCAL-00001" summary="PoC">
       <option name="closed" value="true" />
@@ -205,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760571310944</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added aircrafts json list, fuzzy search engine and dropdown list for aircrafts">
+      <option name="closed" value="true" />
+      <created>1760803956894</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760803956894</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +211,7 @@
     <MESSAGE value="Fixed Markdown" />
     <MESSAGE value="Added favicon &amp; app title, fixed UI." />
     <MESSAGE value="Added &quot;report bug/enhance&quot; link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;report bug/enhance&quot; link" />
+    <MESSAGE value="Added aircrafts json list, fuzzy search engine and dropdown list for aircrafts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added aircrafts json list, fuzzy search engine and dropdown list for aircrafts" />
   </component>
 </project>
