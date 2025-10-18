@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281f8143-fb0a-4184-b275-a5e8b1f009d6" name="Changes" comment="Added &quot;report bug/enhance&quot; link">
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/data/aircrafts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/app/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.prettierrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.vscode/extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/assets/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/SeatOptimizer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/TicketCalculator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconCommunity.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconCommunity.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconDocumentation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconDocumentation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconEcosystem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconEcosystem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconSupport.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconSupport.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/components/icons/IconTooling.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/icons/IconTooling.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am4util/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +66,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/plane-list&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,6 +98,8 @@
       <updated>1760284649069</updated>
       <workItem from="1760284650188" duration="12719000" />
       <workItem from="1760375309987" duration="14809000" />
+      <workItem from="1760774379049" duration="721000" />
+      <workItem from="1760796415786" duration="3374000" />
     </task>
     <task id="LOCAL-00001" summary="PoC">
       <option name="closed" value="true" />
