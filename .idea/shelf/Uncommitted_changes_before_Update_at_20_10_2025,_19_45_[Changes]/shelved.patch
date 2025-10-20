@@ -1,0 +1,105 @@
+Index: Dockerfile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># =========================================\n# Stage 1: Build de l'application Vue.js\n# =========================================\nFROM node:20-alpine AS builder\n\nWORKDIR /app\n\n# Copier les fichiers de dépendances\nCOPY package*.json ./\n\n# Installer les dépendances\nRUN npm install\n\n# Copier le code source\nCOPY . .\n\n# Build de production\nRUN npm run build\n\n# =========================================\n# Stage 2: Servir avec Nginx\n# =========================================\nFROM nginx:alpine AS production\n\n# Copier la configuration Nginx personnalisée\nCOPY nginx.conf /etc/nginx/conf.d/default.conf\n\n# Copier les fichiers build depuis l'étape précédente\nCOPY --from=builder /app/dist /usr/share/nginx/html\n\n# Exposer le port 80\nEXPOSE 80\n\n# Démarrer Nginx\nCMD [\"nginx\", \"-g\", \"daemon off;\"]\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Dockerfile b/Dockerfile
+--- a/Dockerfile	(revision dc5bb471b5015bf9324bd4098ca2b2171d80b3a3)
++++ b/Dockerfile	(date 1760982309211)
+@@ -5,11 +5,11 @@
+ 
+ WORKDIR /app
+ 
+-# Copier les fichiers de dépendances
+-COPY package*.json ./
++# Copier les fichiers package.json et package-lock.json
++COPY package.json package-lock.json ./
+ 
+ # Installer les dépendances
+-RUN npm install
++RUN npm ci --only=production
+ 
+ # Copier le code source
+ COPY . .
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"281f8143-fb0a-4184-b275-a5e8b1f009d6\" name=\"Changes\" comment=\"Added &quot;report bug/enhance&quot; link\">\n      <change beforePath=\"$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;enzoscarpa-fnk&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/enzoscarpa-fnk/AM4Util.git&quot;,\n    &quot;accountId&quot;: &quot;4f5861e2-4fdb-4dcc-a07d-b50b53b37592&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 0\n}</component>\n  <component name=\"ProjectId\" id=\"33yM2CZC1AMcCzYVPYOw9n7zYny\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;ts.external.directory.path&quot;: &quot;/Users/fnk/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n      <recent name=\"$PROJECT_DIR$/am4util\" />\n    </key>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"281f8143-fb0a-4184-b275-a5e8b1f009d6\" name=\"Changes\" comment=\"\" />\n      <created>1760284649069</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1760284649069</updated>\n      <workItem from=\"1760284650188\" duration=\"12719000\" />\n      <workItem from=\"1760375309987\" duration=\"14809000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"PoC\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760286218723</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760286218723</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Fixed rules, adapted UI\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760289956409</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760289956409</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Prepared for deploy\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760299217766</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760299217766</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Fixed Dockerfile\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760299840175</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760299840175</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Fixed Dockerfile\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760300538289</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760300538289</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Fixed vite.config.js\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760300700801</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760300700801</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Compact UI\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760306144443</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760306144443</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"fixed Dockerfile\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760307880067</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760307880067</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Enhanced ticket price calculation method, fixed field UX, added unit to calculated prices, optimized code.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760384292802</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760384292802</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Fixed field validation logic\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760389637759</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760389637759</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"Fixed Markdown\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760389699070</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760389699070</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"Added favicon &amp; app title, fixed UI.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760396715749</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760396715749</updated>\n    </task>\n    <task id=\"LOCAL-00013\" summary=\"Added &quot;report bug/enhance&quot; link\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1760571310944</created>\n      <option name=\"number\" value=\"00013\" />\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1760571310944</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"14\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"PoC\" />\n    <MESSAGE value=\"Fixed rules, adapted UI\" />\n    <MESSAGE value=\"Prepared for deploy\" />\n    <MESSAGE value=\"Fixed Dockerfile\" />\n    <MESSAGE value=\"Fixed vite.config.js\" />\n    <MESSAGE value=\"Compact UI\" />\n    <MESSAGE value=\"fixed Dockerfile\" />\n    <MESSAGE value=\"Enhanced ticket price calculation method, fixed field UX, added unit to calculated prices, optimized code.\" />\n    <MESSAGE value=\"Fixed field validation logic\" />\n    <MESSAGE value=\"Fixed Markdown\" />\n    <MESSAGE value=\"Added favicon &amp; app title, fixed UI.\" />\n    <MESSAGE value=\"Added &quot;report bug/enhance&quot; link\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added &quot;report bug/enhance&quot; link\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision dc5bb471b5015bf9324bd4098ca2b2171d80b3a3)
++++ b/.idea/workspace.xml	(date 1760982158220)
+@@ -4,16 +4,18 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="281f8143-fb0a-4184-b275-a5e8b1f009d6" name="Changes" comment="Added &quot;report bug/enhance&quot; link">
+-      <change beforePath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/src/components/SeatOptimizer.vue" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/am4util/src/components/TicketCalculator.vue" afterDir="false" />
+-    </list>
++    <list default="true" id="281f8143-fb0a-4184-b275-a5e8b1f009d6" name="Changes" comment="Added &quot;report bug/enhance&quot; link" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="feature/plane-list" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -22,12 +24,22 @@
+     &quot;assignee&quot;: &quot;enzoscarpa-fnk&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/enzoscarpa-fnk/AM4Util.git&quot;,
+-    &quot;accountId&quot;: &quot;4f5861e2-4fdb-4dcc-a07d-b50b53b37592&quot;
+-  }
+-}</component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/enzoscarpa-fnk/AM4Util.git",
++    "accountId": "4f5861e2-4fdb-4dcc-a07d-b50b53b37592"
++  },
++  "recentNewPullRequestHead": {
++    "server": {
++      "useHttp": false,
++      "host": "github.com",
++      "port": null,
++      "suffix": null
++    },
++    "owner": "enzoscarpa-fnk",
++    "repository": "AM4Util"
++  }
++}]]></component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 0
+ }</component>
+@@ -184,6 +196,17 @@
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="PoC" />

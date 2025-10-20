@@ -3,16 +3,16 @@
 # =========================================
 FROM node:20-alpine AS builder
 
-WORKDIR /app
+WORKDIR /build
 
 # Copier les fichiers package
-COPY package.json package-lock.json ./
+COPY app/package.json app/package-lock.json ./
 
 # Installer les dépendances
 RUN npm ci
 
 # Copier le code source
-COPY . .
+COPY app/ ./
 
 # Build de production
 RUN npm run build
@@ -23,10 +23,10 @@ RUN npm run build
 FROM nginx:alpine AS production
 
 # Copier la configuration Nginx personnalisée
-COPY ../nginx.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copier les fichiers build depuis l'étape précédente
-COPY --from=builder /app/dist /usr/share/nginx/html
+COPY --from=builder /build/dist /usr/share/nginx/html
 
 # Exposer le port 80
 EXPOSE 80

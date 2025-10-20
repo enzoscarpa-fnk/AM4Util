@@ -1,10 +1,8 @@
-version: '3.8'
-
 services:
   am4-utility:
     build:
-      context: ./app
-      dockerfile: ../Dockerfile
+      context: .
+      dockerfile: Dockerfile
     image: am4-utility:latest
     container_name: am4-utility
     restart: unless-stopped
