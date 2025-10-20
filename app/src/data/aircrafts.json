@@ -1,0 +1,1862 @@
+[
+  {
+    "id": 1,
+    "model": "Cessna 172",
+    "seats": 3,
+    "base_price": 51000
+  },
+  {
+    "id": 2,
+    "model": "Phenom 100",
+    "seats": 4,
+    "base_price": 68000
+  },
+  {
+    "id": 3,
+    "model": "EMB 121 Xingu I",
+    "seats": 5,
+    "base_price": 85000
+  },
+  {
+    "id": 4,
+    "model": "Hondajet",
+    "seats": 6,
+    "base_price": 100000
+  },
+  {
+    "id": 5,
+    "model": "An-74VIP",
+    "seats": 12,
+    "base_price": 100722
+  },
+  {
+    "id": 6,
+    "model": "Phenom 300",
+    "seats": 6,
+    "base_price": 102000
+  },
+  {
+    "id": 7,
+    "model": "Saab 340",
+    "seats": 37,
+    "base_price": 109241
+  },
+  {
+    "id": 8,
+    "model": "Legacy 450",
+    "seats": 7,
+    "base_price": 110501
+  },
+  {
+    "id": 9,
+    "model": "Beechcraft 1900D",
+    "seats": 19,
+    "base_price": 111024
+  },
+  {
+    "id": 10,
+    "model": "Saab 90 Scandia",
+    "seats": 32,
+    "base_price": 113217
+  },
+  {
+    "id": 11,
+    "model": "Beechcraft 1900",
+    "seats": 19,
+    "base_price": 119896
+  },
+  {
+    "id": 12,
+    "model": "ATR 42-320",
+    "seats": 46,
+    "base_price": 122121
+  },
+  {
+    "id": 13,
+    "model": "ATR 42-500",
+    "seats": 50,
+    "base_price": 122750
+  },
+  {
+    "id": 14,
+    "model": "DHC-8-Q200",
+    "seats": 37,
+    "base_price": 124381
+  },
+  {
+    "id": 15,
+    "model": "DHC-8-100",
+    "seats": 37,
+    "base_price": 127710
+  },
+  {
+    "id": 16,
+    "model": "F27-600",
+    "seats": 44,
+    "base_price": 127943
+  },
+  {
+    "id": 17,
+    "model": "Legacy 500",
+    "seats": 8,
+    "base_price": 128115
+  },
+  {
+    "id": 18,
+    "model": "L-1329 JetStar",
+    "seats": 10,
+    "base_price": 132130
+  },
+  {
+    "id": 19,
+    "model": "ATR 42-400",
+    "seats": 48,
+    "base_price": 133060
+  },
+  {
+    "id": 20,
+    "model": "An-74-200",
+    "seats": 16,
+    "base_price": 134296
+  },
+  {
+    "id": 21,
+    "model": "EMB 120",
+    "seats": 30,
+    "base_price": 134440
+  },
+  {
+    "id": 22,
+    "model": "F27-200",
+    "seats": 40,
+    "base_price": 135138
+  },
+  {
+    "id": 23,
+    "model": "Learjet 25B",
+    "seats": 8,
+    "base_price": 137633
+  },
+  {
+    "id": 24,
+    "model": "SN-601 Corvette",
+    "seats": 14,
+    "base_price": 149020
+  },
+  {
+    "id": 25,
+    "model": "DHC-8-Q300",
+    "seats": 50,
+    "base_price": 180374
+  },
+  {
+    "id": 26,
+    "model": "King Air 350i",
+    "seats": 11,
+    "base_price": 187000
+  },
+  {
+    "id": 27,
+    "model": "Praetor 500",
+    "seats": 7,
+    "base_price": 198115
+  },
+  {
+    "id": 28,
+    "model": "DC-1",
+    "seats": 12,
+    "base_price": 204000
+  },
+  {
+    "id": 29,
+    "model": "ATR 42-600",
+    "seats": 50,
+    "base_price": 208303
+  },
+  {
+    "id": 30,
+    "model": "Praetor 600",
+    "seats": 8,
+    "base_price": 218115
+  },
+  {
+    "id": 31,
+    "model": "Challenger 300",
+    "seats": 16,
+    "base_price": 223915
+  },
+  {
+    "id": 32,
+    "model": "Cessna 208B",
+    "seats": 14,
+    "base_price": 238000
+  },
+  {
+    "id": 33,
+    "model": "DC-2",
+    "seats": 14,
+    "base_price": 238000
+  },
+  {
+    "id": 34,
+    "model": "Tu-104",
+    "seats": 50,
+    "base_price": 241193
+  },
+  {
+    "id": 35,
+    "model": "Il-114",
+    "seats": 64,
+    "base_price": 255147
+  },
+  {
+    "id": 36,
+    "model": "DHC-7",
+    "seats": 54,
+    "base_price": 259197
+  },
+  {
+    "id": 37,
+    "model": "Beechcraft 1900C",
+    "seats": 19,
+    "base_price": 323000
+  },
+  {
+    "id": 38,
+    "model": "Jetstream 31",
+    "seats": 19,
+    "base_price": 323000
+  },
+  {
+    "id": 39,
+    "model": "F27-500",
+    "seats": 52,
+    "base_price": 336145
+  },
+  {
+    "id": 40,
+    "model": "ERJ 135ER",
+    "seats": 37,
+    "base_price": 352585
+  },
+  {
+    "id": 41,
+    "model": "Legacy 600",
+    "seats": 13,
+    "base_price": 360159
+  },
+  {
+    "id": 42,
+    "model": "ATR 72-500",
+    "seats": 64,
+    "base_price": 365902
+  },
+  {
+    "id": 43,
+    "model": "DC-5",
+    "seats": 22,
+    "base_price": 374000
+  },
+  {
+    "id": 44,
+    "model": "Citation X",
+    "seats": 12,
+    "base_price": 378968
+  },
+  {
+    "id": 45,
+    "model": "Il-114-100",
+    "seats": 64,
+    "base_price": 382720
+  },
+  {
+    "id": 46,
+    "model": "Lineage 1000",
+    "seats": 19,
+    "base_price": 385854
+  },
+  {
+    "id": 47,
+    "model": "Il-14P",
+    "seats": 24,
+    "base_price": 408000
+  },
+  {
+    "id": 48,
+    "model": "CRJ 100",
+    "seats": 50,
+    "base_price": 416025
+  },
+  {
+    "id": 49,
+    "model": "ERJ 135LR",
+    "seats": 37,
+    "base_price": 417514
+  },
+  {
+    "id": 50,
+    "model": "Il-114-300",
+    "seats": 52,
+    "base_price": 435344
+  },
+  {
+    "id": 51,
+    "model": "Challenger 600",
+    "seats": 19,
+    "base_price": 439374
+  },
+  {
+    "id": 52,
+    "model": "ERJ 145ER",
+    "seats": 50,
+    "base_price": 442288
+  },
+  {
+    "id": 53,
+    "model": "DC-4",
+    "seats": 86,
+    "base_price": 464718
+  },
+  {
+    "id": 54,
+    "model": "ERJ 140LR",
+    "seats": 44,
+    "base_price": 477675
+  },
+  {
+    "id": 55,
+    "model": "N262",
+    "seats": 29,
+    "base_price": 493000
+  },
+  {
+    "id": 56,
+    "model": "ATR 72-200",
+    "seats": 64,
+    "base_price": 494675
+  },
+  {
+    "id": 57,
+    "model": "Jetstream 41",
+    "seats": 30,
+    "base_price": 510000
+  },
+  {
+    "id": 58,
+    "model": "SU-80GP",
+    "seats": 30,
+    "base_price": 510000
+  },
+  {
+    "id": 59,
+    "model": "ATR 72-210",
+    "seats": 62,
+    "base_price": 513873
+  },
+  {
+    "id": 60,
+    "model": "ERJ 145LR",
+    "seats": 50,
+    "base_price": 519169
+  },
+  {
+    "id": 61,
+    "model": "CRJ 100ER",
+    "seats": 50,
+    "base_price": 526012
+  },
+  {
+    "id": 62,
+    "model": "BAe 146-300",
+    "seats": 112,
+    "base_price": 527912
+  },
+  {
+    "id": 63,
+    "model": "DC-3",
+    "seats": 32,
+    "base_price": 540000
+  },
+  {
+    "id": 64,
+    "model": "Challenger 601",
+    "seats": 19,
+    "base_price": 552716
+  },
+  {
+    "id": 65,
+    "model": "Challenger 605",
+    "seats": 12,
+    "base_price": 558459
+  },
+  {
+    "id": 66,
+    "model": "328-100",
+    "seats": 33,
+    "base_price": 561000
+  },
+  {
+    "id": 67,
+    "model": "328-310JET",
+    "seats": 33,
+    "base_price": 561000
+  },
+  {
+    "id": 68,
+    "model": "Tu-124",
+    "seats": 56,
+    "base_price": 562598
+  },
+  {
+    "id": 69,
+    "model": "An-140",
+    "seats": 52,
+    "base_price": 577938
+  },
+  {
+    "id": 70,
+    "model": "Caravelle III",
+    "seats": 80,
+    "base_price": 581947
+  },
+  {
+    "id": 71,
+    "model": "Il-14M",
+    "seats": 36,
+    "base_price": 612000
+  },
+  {
+    "id": 72,
+    "model": "CRJ 200",
+    "seats": 50,
+    "base_price": 621621
+  },
+  {
+    "id": 73,
+    "model": "Tu-104A",
+    "seats": 70,
+    "base_price": 627900
+  },
+  {
+    "id": 74,
+    "model": "Global 7500",
+    "seats": 19,
+    "base_price": 630386
+  },
+  {
+    "id": 75,
+    "model": "CRJ 100LR",
+    "seats": 50,
+    "base_price": 638581
+  },
+  {
+    "id": 76,
+    "model": "Gulf Stream G700",
+    "seats": 19,
+    "base_price": 650550
+  },
+  {
+    "id": 77,
+    "model": "Global 8000",
+    "seats": 17,
+    "base_price": 651042
+  },
+  {
+    "id": 78,
+    "model": "CRJ 200LR",
+    "seats": 50,
+    "base_price": 659451
+  },
+  {
+    "id": 79,
+    "model": "DC-9-10",
+    "seats": 90,
+    "base_price": 659657
+  },
+  {
+    "id": 80,
+    "model": "F28-1000",
+    "seats": 65,
+    "base_price": 660013
+  },
+  {
+    "id": 81,
+    "model": "An-74TK-100",
+    "seats": 52,
+    "base_price": 661308
+  },
+  {
+    "id": 82,
+    "model": "F27-400",
+    "seats": 40,
+    "base_price": 680000
+  },
+  {
+    "id": 83,
+    "model": "4-0-4",
+    "seats": 40,
+    "base_price": 680000
+  },
+  {
+    "id": 84,
+    "model": "2-0-2",
+    "seats": 40,
+    "base_price": 648000
+  },
+  {
+    "id": 85,
+    "model": "Tu-134A",
+    "seats": 76,
+    "base_price": 686770
+  },
+  {
+    "id": 86,
+    "model": "Tu-104D",
+    "seats": 85,
+    "base_price": 698913
+  },
+  {
+    "id": 87,
+    "model": "F28-6000",
+    "seats": 85,
+    "base_price": 707020
+  },
+  {
+    "id": 88,
+    "model": "DC-6",
+    "seats": 56,
+    "base_price": 707147
+  },
+  {
+    "id": 89,
+    "model": "F28-3000",
+    "seats": 65,
+    "base_price": 711521
+  },
+  {
+    "id": 90,
+    "model": "ATR 42-300",
+    "seats": 42,
+    "base_price": 714000
+  },
+  {
+    "id": 91,
+    "model": "Fokker 50",
+    "seats": 58,
+    "base_price": 718458
+  },
+  {
+    "id": 92,
+    "model": "Fokker 70",
+    "seats": 70,
+    "base_price": 725120
+  },
+  {
+    "id": 93,
+    "model": "Tu-104B",
+    "seats": 100,
+    "base_price": 742545
+  },
+  {
+    "id": 94,
+    "model": "F27-100",
+    "seats": 44,
+    "base_price": 748000
+  },
+  {
+    "id": 95,
+    "model": "428JET",
+    "seats": 44,
+    "base_price": 748000
+  },
+  {
+    "id": 96,
+    "model": "Il-18B",
+    "seats": 84,
+    "base_price": 756132
+  },
+  {
+    "id": 97,
+    "model": "BAe146",
+    "seats": 85,
+    "base_price": 762450
+  },
+  {
+    "id": 98,
+    "model": "Il-18A",
+    "seats": 75,
+    "base_price": 771564
+  },
+  {
+    "id": 99,
+    "model": "B377 Stratocruiser",
+    "seats": 117,
+    "base_price": 788066
+  },
+  {
+    "id": 100,
+    "model": "DHC-8-Q400",
+    "seats": 70,
+    "base_price": 804752
+  },
+  {
+    "id": 101,
+    "model": "F28-4000",
+    "seats": 85,
+    "base_price": 814144
+  },
+  {
+    "id": 102,
+    "model": "Caravelle IV-R",
+    "seats": 80,
+    "base_price": 826463
+  },
+  {
+    "id": 103,
+    "model": "Fokker 70A",
+    "seats": 80,
+    "base_price": 828709
+  },
+  {
+    "id": 104,
+    "model": "Caravelle IV-N",
+    "seats": 80,
+    "base_price": 844429
+  },
+  {
+    "id": 105,
+    "model": "DC-9-50",
+    "seats": 90,
+    "base_price": 847715
+  },
+  {
+    "id": 106,
+    "model": "DC-6B",
+    "seats": 102,
+    "base_price": 854413
+  },
+  {
+    "id": 107,
+    "model": "F100",
+    "seats": 122,
+    "base_price": 861279
+  },
+  {
+    "id": 108,
+    "model": "DC-9-30",
+    "seats": 90,
+    "base_price": 865651
+  },
+  {
+    "id": 109,
+    "model": "DC-9-40",
+    "seats": 90,
+    "base_price": 892301
+  },
+  {
+    "id": 110,
+    "model": "Viscount",
+    "seats": 75,
+    "base_price": 927749
+  },
+  {
+    "id": 111,
+    "model": "ATR 72-600",
+    "seats": 74,
+    "base_price": 928466
+  },
+  {
+    "id": 112,
+    "model": "DC-9-21",
+    "seats": 90,
+    "base_price": 957060
+  },
+  {
+    "id": 113,
+    "model": "Il-18V",
+    "seats": 90,
+    "base_price": 1024410
+  },
+  {
+    "id": 114,
+    "model": "ARJ21-700",
+    "seats": 78,
+    "base_price": 1028514
+  },
+  {
+    "id": 115,
+    "model": "Saab 2000",
+    "seats": 58,
+    "base_price": 1033701
+  },
+  {
+    "id": 116,
+    "model": "Tu-110",
+    "seats": 100,
+    "base_price": 1049234
+  },
+  {
+    "id": 117,
+    "model": "CRJ 701",
+    "seats": 70,
+    "base_price": 1052956
+  },
+  {
+    "id": 118,
+    "model": "Caravelle 11R",
+    "seats": 99,
+    "base_price": 1089317
+  },
+  {
+    "id": 119,
+    "model": "CV-880",
+    "seats": 110,
+    "base_price": 1096733
+  },
+  {
+    "id": 120,
+    "model": "F28-2000",
+    "seats": 79,
+    "base_price": 1100175
+  },
+  {
+    "id": 121,
+    "model": "An-10",
+    "seats": 100,
+    "base_price": 1104705
+  },
+  {
+    "id": 122,
+    "model": "Falcon 2000LX",
+    "seats": 19,
+    "base_price": 1104727
+  },
+  {
+    "id": 123,
+    "model": "ERJ 145XR",
+    "seats": 50,
+    "base_price": 1129212
+  },
+  {
+    "id": 124,
+    "model": "ARJ21-900",
+    "seats": 98,
+    "base_price": 1130706
+  },
+  {
+    "id": 125,
+    "model": "Challenger 604",
+    "seats": 19,
+    "base_price": 1143957
+  },
+  {
+    "id": 126,
+    "model": "CRJ 700",
+    "seats": 68,
+    "base_price": 1174846
+  },
+  {
+    "id": 127,
+    "model": "An-12",
+    "seats": 124,
+    "base_price": 1192364
+  },
+  {
+    "id": 128,
+    "model": "An-10A",
+    "seats": 110,
+    "base_price": 1215176
+  },
+  {
+    "id": 129,
+    "model": "Caravelle 10B",
+    "seats": 105,
+    "base_price": 1220219
+  },
+  {
+    "id": 130,
+    "model": "L-188 Electra",
+    "seats": 127,
+    "base_price": 1242421
+  },
+  {
+    "id": 131,
+    "model": "Il-18I",
+    "seats": 122,
+    "base_price": 1266516
+  },
+  {
+    "id": 132,
+    "model": "CRJ 701ER",
+    "seats": 70,
+    "base_price": 1271479
+  },
+  {
+    "id": 133,
+    "model": "Caravelle 10R",
+    "seats": 80,
+    "base_price": 1322298
+  },
+  {
+    "id": 134,
+    "model": "CRJ 700NG",
+    "seats": 70,
+    "base_price": 1335683
+  },
+  {
+    "id": 135,
+    "model": "CRJ 702",
+    "seats": 78,
+    "base_price": 1347617
+  },
+  {
+    "id": 136,
+    "model": "CRJ 705",
+    "seats": 75,
+    "base_price": 1352951
+  },
+  {
+    "id": 137,
+    "model": "B727-100",
+    "seats": 131,
+    "base_price": 1364217
+  },
+  {
+    "id": 138,
+    "model": "CRJ 700ER",
+    "seats": 68,
+    "base_price": 1383766
+  },
+  {
+    "id": 139,
+    "model": "Falcon 2000",
+    "seats": 19,
+    "base_price": 1393600
+  },
+  {
+    "id": 140,
+    "model": "DC-7",
+    "seats": 99,
+    "base_price": 1428866
+  },
+  {
+    "id": 141,
+    "model": "Il-18D",
+    "seats": 100,
+    "base_price": 1439984
+  },
+  {
+    "id": 142,
+    "model": "CRJ 701LR",
+    "seats": 70,
+    "base_price": 1470569
+  },
+  {
+    "id": 143,
+    "model": "CRJ 900NG",
+    "seats": 88,
+    "base_price": 1498256
+  },
+  {
+    "id": 144,
+    "model": "ARJ21-700ER",
+    "seats": 78,
+    "base_price": 1513551
+  },
+  {
+    "id": 145,
+    "model": "B737-100",
+    "seats": 118,
+    "base_price": 1514699
+  },
+  {
+    "id": 146,
+    "model": "CRJ 900",
+    "seats": 86,
+    "base_price": 1530636
+  },
+  {
+    "id": 147,
+    "model": "CRJ 705ER",
+    "seats": 75,
+    "base_price": 1544590
+  },
+  {
+    "id": 148,
+    "model": "An-74TK-300",
+    "seats": 60,
+    "base_price": 1550016
+  },
+  {
+    "id": 149,
+    "model": "Tu-334-200",
+    "seats": 126,
+    "base_price": 1553460
+  },
+  {
+    "id": 150,
+    "model": "DC-7B",
+    "seats": 100,
+    "base_price": 1558217
+  },
+  {
+    "id": 151,
+    "model": "CRJ 705LR",
+    "seats": 75,
+    "base_price": 1573060
+  },
+  {
+    "id": 152,
+    "model": "B737-200C",
+    "seats": 110,
+    "base_price": 1580983
+  },
+  {
+    "id": 153,
+    "model": "Superjet 100-75",
+    "seats": 78,
+    "base_price": 1593374
+  },
+  {
+    "id": 154,
+    "model": "ERJ 190-200",
+    "seats": 122,
+    "base_price": 1598528
+  },
+  {
+    "id": 155,
+    "model": "Superjet 100-95",
+    "seats": 98,
+    "base_price": 1610270
+  },
+  {
+    "id": 156,
+    "model": "Tu-334-220",
+    "seats": 126,
+    "base_price": 1610294
+  },
+  {
+    "id": 157,
+    "model": "Superjet 100-60",
+    "seats": 68,
+    "base_price": 1642969
+  },
+  {
+    "id": 158,
+    "model": "ERJ 170-200",
+    "seats": 88,
+    "base_price": 1734433
+  },
+  {
+    "id": 159,
+    "model": "Caravelle 12",
+    "seats": 140,
+    "base_price": 1740539
+  },
+  {
+    "id": 160,
+    "model": "Tu-334-100",
+    "seats": 102,
+    "base_price": 1800602
+  },
+  {
+    "id": 161,
+    "model": "L-1049G Super Constellation",
+    "seats": 95,
+    "base_price": 1802354
+  },
+  {
+    "id": 162,
+    "model": "DC-7C",
+    "seats": 105,
+    "base_price": 1806145
+  },
+  {
+    "id": 163,
+    "model": "CRJ 1000",
+    "seats": 100,
+    "base_price": 1819929
+  },
+  {
+    "id": 164,
+    "model": "CRJ 900ER",
+    "seats": 90,
+    "base_price": 1823606
+  },
+  {
+    "id": 165,
+    "model": "ERJ 170-100",
+    "seats": 80,
+    "base_price": 1839550
+  },
+  {
+    "id": 166,
+    "model": "ERJ 190-100",
+    "seats": 110,
+    "base_price": 1853174
+  },
+  {
+    "id": 167,
+    "model": "B737-500",
+    "seats": 123,
+    "base_price": 1856353
+  },
+  {
+    "id": 168,
+    "model": "B737-200Adv",
+    "seats": 102,
+    "base_price": 1893733
+  },
+  {
+    "id": 169,
+    "model": "MD-87",
+    "seats": 139,
+    "base_price": 1995393
+  },
+  {
+    "id": 170,
+    "model": "ERJ 170-200LR",
+    "seats": 88,
+    "base_price": 2023158
+  },
+  {
+    "id": 171,
+    "model": "ERJ 190-200LR",
+    "seats": 122,
+    "base_price": 2055338
+  },
+  {
+    "id": 172,
+    "model": "CRJ 900LR",
+    "seats": 90,
+    "base_price": 2092337
+  },
+  {
+    "id": 173,
+    "model": "C130 (L-100) Hercules",
+    "seats": 92,
+    "base_price": 2105020
+  },
+  {
+    "id": 174,
+    "model": "ERJ 170-100LR",
+    "seats": 80,
+    "base_price": 2145774
+  },
+  {
+    "id": 175,
+    "model": "MD80",
+    "seats": 130,
+    "base_price": 2161616
+  },
+  {
+    "id": 176,
+    "model": "ERJ 170-200AR",
+    "seats": 85,
+    "base_price": 2172603
+  },
+  {
+    "id": 177,
+    "model": "B737-200",
+    "seats": 130,
+    "base_price": 2217362
+  },
+  {
+    "id": 178,
+    "model": "B717-200",
+    "seats": 134,
+    "base_price": 2238611
+  },
+  {
+    "id": 179,
+    "model": "MD-81",
+    "seats": 172,
+    "base_price": 2296357
+  },
+  {
+    "id": 180,
+    "model": "Tu-334-100D",
+    "seats": 102,
+    "base_price": 2343641
+  },
+  {
+    "id": 181,
+    "model": "ERJ 190-100LR",
+    "seats": 110,
+    "base_price": 2367883
+  },
+  {
+    "id": 182,
+    "model": "B737-600",
+    "seats": 110,
+    "base_price": 2460985
+  },
+  {
+    "id": 183,
+    "model": "B737-300",
+    "seats": 128,
+    "base_price": 2464401
+  },
+  {
+    "id": 184,
+    "model": "ERJ 190-100AR",
+    "seats": 110,
+    "base_price": 2472381
+  },
+  {
+    "id": 185,
+    "model": "ERJ 170-100AR",
+    "seats": 78,
+    "base_price": 2512492
+  },
+  {
+    "id": 186,
+    "model": "Tu-334-120D",
+    "seats": 102,
+    "base_price": 2600869
+  },
+  {
+    "id": 187,
+    "model": "C S100",
+    "seats": 110,
+    "base_price": 2697150
+  },
+  {
+    "id": 188,
+    "model": "ERJ 190-200AR",
+    "seats": 120,
+    "base_price": 2825347
+  },
+  {
+    "id": 189,
+    "model": "MD-88",
+    "seats": 172,
+    "base_price": 2998679
+  },
+  {
+    "id": 190,
+    "model": "MD-90-30",
+    "seats": 172,
+    "base_price": 3049783
+  },
+  {
+    "id": 191,
+    "model": "B737-700C",
+    "seats": 120,
+    "base_price": 3118288
+  },
+  {
+    "id": 192,
+    "model": "E175-E2",
+    "seats": 80,
+    "base_price": 3197562
+  },
+  {
+    "id": 193,
+    "model": "A220-100",
+    "seats": 135,
+    "base_price": 3234528
+  },
+  {
+    "id": 194,
+    "model": "B737-400",
+    "seats": 159,
+    "base_price": 3282313
+  },
+  {
+    "id": 195,
+    "model": "E190-E2",
+    "seats": 97,
+    "base_price": 3387562
+  },
+  {
+    "id": 196,
+    "model": "Spacejet M90",
+    "seats": 92,
+    "base_price": 3387562
+  },
+  {
+    "id": 197,
+    "model": "MD-90-30ER",
+    "seats": 172,
+    "base_price": 3495399
+  },
+  {
+    "id": 198,
+    "model": "CL-44D",
+    "seats": 160,
+    "base_price": 3613052
+  },
+  {
+    "id": 199,
+    "model": "MD-83",
+    "seats": 172,
+    "base_price": 3661545
+  },
+  {
+    "id": 200,
+    "model": "MD-90-50",
+    "seats": 172,
+    "base_price": 4076912
+  },
+  {
+    "id": 201,
+    "model": "B737-700",
+    "seats": 149,
+    "base_price": 4085576
+  },
+  {
+    "id": 202,
+    "model": "Superjet 100-95LR",
+    "seats": 98,
+    "base_price": 4114953
+  },
+  {
+    "id": 203,
+    "model": "B707",
+    "seats": 144,
+    "base_price": 4169974
+  },
+  {
+    "id": 204,
+    "model": "E195-E2",
+    "seats": 120,
+    "base_price": 4216798
+  },
+  {
+    "id": 205,
+    "model": "A318-100",
+    "seats": 117,
+    "base_price": 4380431
+  },
+  {
+    "id": 206,
+    "model": "B737-800",
+    "seats": 184,
+    "base_price": 4407858
+  },
+  {
+    "id": 207,
+    "model": "Vickers VC10",
+    "seats": 151,
+    "base_price": 4500000
+  },
+  {
+    "id": 208,
+    "model": "Tu-154M",
+    "seats": 180,
+    "base_price": 4514400
+  },
+  {
+    "id": 209,
+    "model": "MC-21-200",
+    "seats": 162,
+    "base_price": 4522716
+  },
+  {
+    "id": 210,
+    "model": "MC-21-300",
+    "seats": 198,
+    "base_price": 4552276
+  },
+  {
+    "id": 211,
+    "model": "DC-8-10",
+    "seats": 160,
+    "base_price": 4812350
+  },
+  {
+    "id": 212,
+    "model": "B727-200",
+    "seats": 189,
+    "base_price": 4883110
+  },
+  {
+    "id": 213,
+    "model": "C S300",
+    "seats": 135,
+    "base_price": 4984356
+  },
+  {
+    "id": 214,
+    "model": "Spacejet M100",
+    "seats": 88,
+    "base_price": 5071399
+  },
+  {
+    "id": 215,
+    "model": "A319-200",
+    "seats": 117,
+    "base_price": 5093525
+  },
+  {
+    "id": 216,
+    "model": "Tu-154",
+    "seats": 180,
+    "base_price": 5107721
+  },
+  {
+    "id": 217,
+    "model": "DC-8-61",
+    "seats": 210,
+    "base_price": 5189932
+  },
+  {
+    "id": 218,
+    "model": "MC-21-400",
+    "seats": 230,
+    "base_price": 5204503
+  },
+  {
+    "id": 219,
+    "model": "DC-8-20",
+    "seats": 170,
+    "base_price": 5256539
+  },
+  {
+    "id": 220,
+    "model": "B737-900",
+    "seats": 177,
+    "base_price": 5535200
+  },
+  {
+    "id": 221,
+    "model": "A220-300",
+    "seats": 160,
+    "base_price": 5619831
+  },
+  {
+    "id": 222,
+    "model": "B737-700ER",
+    "seats": 126,
+    "base_price": 5656525
+  },
+  {
+    "id": 223,
+    "model": "DC-8-71",
+    "seats": 210,
+    "base_price": 5850306
+  },
+  {
+    "id": 224,
+    "model": "Tu-204-300",
+    "seats": 164,
+    "base_price": 5991344
+  },
+  {
+    "id": 225,
+    "model": "Tu-204-120",
+    "seats": 210,
+    "base_price": 6137208
+  },
+  {
+    "id": 226,
+    "model": "CV-990A",
+    "seats": 149,
+    "base_price": 6211896
+  },
+  {
+    "id": 227,
+    "model": "Il-62",
+    "seats": 186,
+    "base_price": 6302498
+  },
+  {
+    "id": 228,
+    "model": "Tu-204-100",
+    "seats": 210,
+    "base_price": 6436584
+  },
+  {
+    "id": 229,
+    "model": "Tu-214",
+    "seats": 210,
+    "base_price": 6497956
+  },
+  {
+    "id": 230,
+    "model": "C919",
+    "seats": 168,
+    "base_price": 6517748
+  },
+  {
+    "id": 231,
+    "model": "DC-8-40",
+    "seats": 176,
+    "base_price": 6669034
+  },
+  {
+    "id": 232,
+    "model": "A320-200",
+    "seats": 164,
+    "base_price": 6770196
+  },
+  {
+    "id": 233,
+    "model": "DC-10-10",
+    "seats": 250,
+    "base_price": 6806411
+  },
+  {
+    "id": 234,
+    "model": "A319NEO",
+    "seats": 160,
+    "base_price": 6845472
+  },
+  {
+    "id": 235,
+    "model": "B757-300",
+    "seats": 243,
+    "base_price": 7002640
+  },
+  {
+    "id": 236,
+    "model": "Il-62M",
+    "seats": 168,
+    "base_price": 7065274
+  },
+  {
+    "id": 237,
+    "model": "B767-200",
+    "seats": 224,
+    "base_price": 7882711
+  },
+  {
+    "id": 238,
+    "model": "A321-200",
+    "seats": 220,
+    "base_price": 8154432
+  },
+  {
+    "id": 239,
+    "model": "Il-62MK",
+    "seats": 195,
+    "base_price": 8204625
+  },
+  {
+    "id": 240,
+    "model": "Dassault Mercure",
+    "seats": 150,
+    "base_price": 8434010
+  },
+  {
+    "id": 241,
+    "model": "DC-8-62",
+    "seats": 220,
+    "base_price": 8696462
+  },
+  {
+    "id": 242,
+    "model": "B737-900ER",
+    "seats": 215,
+    "base_price": 9225912
+  },
+  {
+    "id": 243,
+    "model": "DC-8-50",
+    "seats": 179,
+    "base_price": 9354363
+  },
+  {
+    "id": 244,
+    "model": "B757-200",
+    "seats": 200,
+    "base_price": 9723701
+  },
+  {
+    "id": 245,
+    "model": "DC-8-72",
+    "seats": 220,
+    "base_price": 9830403
+  },
+  {
+    "id": 246,
+    "model": "A300B2-200",
+    "seats": 269,
+    "base_price": 11605297
+  },
+  {
+    "id": 247,
+    "model": "B767-200ER",
+    "seats": 224,
+    "base_price": 14114834
+  },
+  {
+    "id": 248,
+    "model": "A320-NEO",
+    "seats": 164,
+    "base_price": 14770196
+  },
+  {
+    "id": 249,
+    "model": "A340-200",
+    "seats": 239,
+    "base_price": 15688189
+  },
+  {
+    "id": 250,
+    "model": "B737 MAX 7",
+    "seats": 160,
+    "base_price": 17346513
+  },
+  {
+    "id": 251,
+    "model": "B737 MAX 8",
+    "seats": 180,
+    "base_price": 18011300
+  },
+  {
+    "id": 252,
+    "model": "B737 MAX 9",
+    "seats": 200,
+    "base_price": 18849600
+  },
+  {
+    "id": 253,
+    "model": "B787-8",
+    "seats": 250,
+    "base_price": 19411920
+  },
+  {
+    "id": 254,
+    "model": "B737 MAX 10",
+    "seats": 225,
+    "base_price": 19649600
+  },
+  {
+    "id": 255,
+    "model": "A300B4-200",
+    "seats": 269,
+    "base_price": 21315852
+  },
+  {
+    "id": 256,
+    "model": "A321-NEO",
+    "seats": 189,
+    "base_price": 22760999
+  },
+  {
+    "id": 257,
+    "model": "B767-300",
+    "seats": 269,
+    "base_price": 23356202
+  },
+  {
+    "id": 258,
+    "model": "DC-8-63",
+    "seats": 259,
+    "base_price": 24540066
+  },
+  {
+    "id": 259,
+    "model": "DC-10-15",
+    "seats": 260,
+    "base_price": 24540516
+  },
+  {
+    "id": 260,
+    "model": "A300-600",
+    "seats": 267,
+    "base_price": 24683135
+  },
+  {
+    "id": 261,
+    "model": "L-1011-200",
+    "seats": 263,
+    "base_price": 24777200
+  },
+  {
+    "id": 262,
+    "model": "A310-200",
+    "seats": 280,
+    "base_price": 27466560
+  },
+  {
+    "id": 263,
+    "model": "A300-600R",
+    "seats": 267,
+    "base_price": 27773153
+  },
+  {
+    "id": 264,
+    "model": "DC-8-73",
+    "seats": 259,
+    "base_price": 28278818
+  },
+  {
+    "id": 265,
+    "model": "A321-XLR",
+    "seats": 220,
+    "base_price": 29990999
+  },
+  {
+    "id": 266,
+    "model": "Il-96-300",
+    "seats": 300,
+    "base_price": 31671000
+  },
+  {
+    "id": 267,
+    "model": "L-1011-500",
+    "seats": 315,
+    "base_price": 33120715
+  },
+  {
+    "id": 268,
+    "model": "B767-300ER",
+    "seats": 269,
+    "base_price": 33435451
+  },
+  {
+    "id": 269,
+    "model": "B767-400ER",
+    "seats": 304,
+    "base_price": 33694208
+  },
+  {
+    "id": 270,
+    "model": "DC-10-30",
+    "seats": 320,
+    "base_price": 36409376
+  },
+  {
+    "id": 271,
+    "model": "A310-300",
+    "seats": 280,
+    "base_price": 38776320
+  },
+  {
+    "id": 272,
+    "model": "Il-96-400",
+    "seats": 436,
+    "base_price": 40441348
+  },
+  {
+    "id": 273,
+    "model": "B747SP",
+    "seats": 350,
+    "base_price": 40824000
+  },
+  {
+    "id": 274,
+    "model": "A330-300",
+    "seats": 335,
+    "base_price": 43330073
+  },
+  {
+    "id": 275,
+    "model": "A330-200",
+    "seats": 253,
+    "base_price": 43631874
+  },
+  {
+    "id": 276,
+    "model": "B747-100",
+    "seats": 366,
+    "base_price": 44393752
+  },
+  {
+    "id": 277,
+    "model": "Il-96M",
+    "seats": 370,
+    "base_price": 46495680
+  },
+  {
+    "id": 278,
+    "model": "DC-10-40",
+    "seats": 360,
+    "base_price": 46926501
+  },
+  {
+    "id": 279,
+    "model": "A340-300",
+    "seats": 335,
+    "base_price": 55469568
+  },
+  {
+    "id": 280,
+    "model": "MD-11C",
+    "seats": 410,
+    "base_price": 56273548
+  },
+  {
+    "id": 281,
+    "model": "MD-11",
+    "seats": 410,
+    "base_price": 57269139
+  },
+  {
+    "id": 282,
+    "model": "B747-200B",
+    "seats": 366,
+    "base_price": 57530678
+  },
+  {
+    "id": 283,
+    "model": "MD-11ER",
+    "seats": 410,
+    "base_price": 60676778
+  },
+  {
+    "id": 284,
+    "model": "B777-200",
+    "seats": 400,
+    "base_price": 60803647
+  },
+  {
+    "id": 285,
+    "model": "A350-800",
+    "seats": 270,
+    "base_price": 62240270
+  },
+  {
+    "id": 286,
+    "model": "B747-300",
+    "seats": 412,
+    "base_price": 64231515
+  },
+  {
+    "id": 287,
+    "model": "B777-200LR",
+    "seats": 300,
+    "base_price": 65912406
+  },
+  {
+    "id": 288,
+    "model": "A340-500",
+    "seats": 313,
+    "base_price": 66262163
+  },
+  {
+    "id": 289,
+    "model": "B777-300ER",
+    "seats": 350,
+    "base_price": 68243786
+  },
+  {
+    "id": 290,
+    "model": "A340-600",
+    "seats": 380,
+    "base_price": 69887329
+  },
+  {
+    "id": 291,
+    "model": "B787-9",
+    "seats": 290,
+    "base_price": 69997851
+  },
+  {
+    "id": 292,
+    "model": "A350-900",
+    "seats": 314,
+    "base_price": 70503048
+  },
+  {
+    "id": 293,
+    "model": "B747-400C",
+    "seats": 410,
+    "base_price": 72722924
+  },
+  {
+    "id": 294,
+    "model": "B787-10",
+    "seats": 440,
+    "base_price": 72795638
+  },
+  {
+    "id": 295,
+    "model": "A350-1000",
+    "seats": 350,
+    "base_price": 77538384
+  },
+  {
+    "id": 296,
+    "model": "B777-8X",
+    "seats": 350,
+    "base_price": 77983382
+  },
+  {
+    "id": 297,
+    "model": "B747-400D",
+    "seats": 568,
+    "base_price": 80125136
+  },
+  {
+    "id": 298,
+    "model": "A350-900R",
+    "seats": 314,
+    "base_price": 82723576
+  },
+  {
+    "id": 299,
+    "model": "B777-200ER",
+    "seats": 400,
+    "base_price": 84172921
+  },
+  {
+    "id": 300,
+    "model": "A330-800NEO",
+    "seats": 406,
+    "base_price": 85325684
+  },
+  {
+    "id": 301,
+    "model": "B777-300",
+    "seats": 451,
+    "base_price": 89987157
+  },
+  {
+    "id": 302,
+    "model": "B777-9X",
+    "seats": 406,
+    "base_price": 91150989
+  },
+  {
+    "id": 303,
+    "model": "A350-900ULR",
+    "seats": 300,
+    "base_price": 91723576
+  },
+  {
+    "id": 304,
+    "model": "B747-400",
+    "seats": 416,
+    "base_price": 92136845
+  },
+  {
+    "id": 305,
+    "model": "B747-400ER",
+    "seats": 416,
+    "base_price": 97556659
+  },
+  {
+    "id": 306,
+    "model": "A330-900NEO",
+    "seats": 440,
+    "base_price": 109315468
+  },
+  {
+    "id": 307,
+    "model": "B747-8",
+    "seats": 467,
+    "base_price": 121097727
+  },
+  {
+    "id": 308,
+    "model": "B777-300LR",
+    "seats": 451,
+    "base_price": 131844032
+  },
+  {
+    "id": 309,
+    "model": "A380-800",
+    "seats": 600,
+    "base_price": 215629503
+  },
+  {
+    "id": 310,
+    "model": "Concorde",
+    "seats": 120,
+    "base_price": 407808000
+  }
+]
