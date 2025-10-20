@@ -29,6 +29,7 @@ jobs:
             if [ -d "am4util" ]; then
               cd am4util
               docker compose down 2>/dev/null || true
+              docker images | grep "am4-utility" | awk '{print $3}' | xargs -r docker rmi -f || true
               cd ..
             fi
             
