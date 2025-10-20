@@ -199,14 +199,13 @@ const formatPrice = (price) => {
 
 <template>
   <div class="bg-stone-800 rounded-xl shadow-md overflow-hidden">
-    <!-- Header cliquable -->
+    <!-- Header -->
     <div
       @click="emit('toggle')"
       class="flex justify-between items-center p-3 cursor-pointer hover:bg-stone-700 transition-colors"
     >
       <h2 class="text-xl font-bold text-emerald-500">Seat Optimizer</h2>
 
-      <!-- Chevron + Clear button -->
       <div class="flex items-center gap-2 flex-shrink-0">
         <button
           v-if="isOpen && hasResults"
@@ -229,7 +228,7 @@ const formatPrice = (price) => {
       </div>
     </div>
 
-    <!-- Contenu des inputs (masqué quand fermé) -->
+    <!-- Inputs content (hidden when collapsed) -->
     <Transition
       enter-active-class="transition-all duration-200 ease-out"
       enter-from-class="max-h-0 opacity-0"
@@ -381,7 +380,7 @@ const formatPrice = (price) => {
       </div>
     </Transition>
 
-    <!-- Résultats calculés (TOUJOURS VISIBLES si hasResults) -->
+    <!-- Results (showing if hasResults) -->
     <div v-if="hasResults" class="px-3 pb-3">
       <div class="px-2 bg-neutral-700 rounded-md">
         <div class="grid grid-cols-3 gap-4 py-2">
