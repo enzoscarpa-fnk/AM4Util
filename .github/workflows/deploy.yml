@@ -3,6 +3,7 @@ name: Deploy to VPS
 on:
   push:
     branches: ['master']
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -38,15 +39,29 @@ jobs:
             git clone https://github.com/enzoscarpa-fnk/AM4Util am4util
             cd am4util
             
-            # Réorganiser les fichiers si nécessaire
-            if [ -d "am4util" ]; then
-              mv am4util/* . 2>/dev/null || true
-              mv am4util/.[!.]* . 2>/dev/null || true
-              rmdir am4util
-            fi
-            
             # Build et lancer le nouveau container Docker
             docker compose up -d --build
+          EOF
+
+      - name: Verify deployment
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
+            cd ${{ secrets.WORK_DIR }}/am4util
+            
+            # Attendre quelques secondes que le container démarre
+            sleep 5
+            
+            # Vérifier les logs
+            echo "📋 Container logs:"
+            docker compose logs --tail=50
+            
+            # Vérifier l'état des containers
+            if [ "$(docker compose ps -q | wc -l)" -eq "0" ]; then
+              echo "❌ ERROR: No containers running!"
+              exit 1
+            fi
+            
+            echo "✅ Containers are running successfully!"
           EOF
 
       - name: Cleanup SSH keys
