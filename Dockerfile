@@ -5,11 +5,11 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Copier les fichiers de dépendances
-COPY package*.json ./
+# Copier les fichiers package.json et package-lock.json
+COPY package.json package-lock.json ./
 
 # Installer les dépendances
-RUN npm install
+RUN npm ci --only=production
 
 # Copier le code source
 COPY . .
